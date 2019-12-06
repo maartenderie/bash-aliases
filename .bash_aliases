@@ -1,0 +1,5 @@
+alias ll='ls -lha'
+alias grep='grep --color=auto'
+alias tree='tree --dirsfirst -C'
+alias srd='screen -R -D'
+alias phpunit='php -n vendor/bin/phpunit'
