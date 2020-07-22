@@ -3,4 +3,6 @@ alias grep='grep --color=auto'
 alias tree='tree --dirsfirst -C'
 alias srd='screen -R -D'
 alias phpunit='php -n vendor/bin/phpunit --columns 81'
+
 alias gitall="find ~/git -maxdepth 1 -mindepth 1 -type d -exec sh -c '(cd {} && printf \"%-70s @ %s\n\" \"{}\" \"\$(git branch --show-current)\" && git status -s && git cherry -v)' \;"
+#alias gitclean="git fetch -p && for branch in $(git for-each-ref --format '%(refname) %(upstream:track)' refs/heads | awk '$2 == \"[gone]\" {sub(\"refs/heads/\", \"\", $1)\; print $1}')\; do git branch -D $branch\; done"
