@@ -11,6 +11,7 @@ alias gpf="git pull --ff"
 alias sspz='ssh sd_production_zion'
 alias sspm='ssh sd_production_metropolis'
 alias sspi='ssh sd_production_inbound'
+alias sspmo='ssh sd_production_mouse'
 alias sss='ssh sd_staging'
 alias sspw='ssh sd_production_weather'
 alias ssi='ssh sd_production_influx'
