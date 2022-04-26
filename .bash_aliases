@@ -3,6 +3,7 @@ alias grep='grep --color=auto'
 alias tree='tree --dirsfirst -C'
 alias srd='screen -R -D'
 alias phpunit='php -n vendor/bin/phpunit --columns 81'
+alias pudev='phpunit --stop-on-error --stop-on-defect'
 
 alias gitall="find ~/git -maxdepth 1 -mindepth 1 -type d -exec sh -c '(cd {} && printf \"%-70s @ %s\n\" \"{}\" \"\$(git branch --show-current)\" && git status -s && git cherry -v)' \;"
 alias gpf="git pull --ff"
